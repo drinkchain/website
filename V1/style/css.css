@@ -1,0 +1,273 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.header{
+	width: 100%;
+	height: 40pt;
+	background:#161246;
+	padding: 0 34pt 0 22pt;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-between;
+	position: fixed;
+	top:0;
+	left:0;
+}
+.header div{
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+.header .left img{
+	height: 25pt;
+	width: 25pt;
+}
+.header .left span{
+	display: inline-block;
+	color:#FFF;
+	font-size: 12pt;
+}
+.globa{
+	margin-left: 11pt;
+}
+.header .right>a{
+	text-decoration: none;
+	display: inline-block;
+	color:#FFF;
+	font-size: 12pt;
+	margin-left: 25pt;
+}
+
+
+.drinkGloba{
+	width: 100%;
+	height: 350pt;
+	background: url(../img/bg1.png) no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: row;
+	padding-left: 202pt;
+	box-sizing: border-box;
+
+}
+.drinkGlobaTitle{
+	font-size: 26pt;
+	color:#000;
+	font-weight: bold;
+}
+.drinkGlobaLeft{
+	display: flex;
+	flex-direction: column;
+	justify-content:center;;
+	height: 100%;
+}
+
+.drinkGlobaBtn{
+	width: 270pt;
+	height: 30pt;
+	background:#AF023A;
+	text-align: center;
+	line-height: 30pt;
+	font-size: 14pt;
+	color:#fff;
+	margin:9pt 0 15pt 0;
+}
+.drinkGlobaDes{
+	text-indent: 24pt;
+	font-size: 12pt;
+	color:#808080;
+}
+.drinkGlobaRight{
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+	align-items: flex-end;
+	padding-bottom: 12pt;
+	box-sizing: border-box;
+}
+.drinkGlobaRight >img{
+	width: 75pt;
+	height: 100pt;
+}
+.android{
+	margin-left: 20pt;
+}
+
+
+.why{
+	width: 100%;
+	height: 390pt;
+	background: url(../img/why.png);
+	background-size: cover;
+	background-position: center center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 202pt;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.whyTitle{
+	font-size: 26pt;
+	color:#FFF;
+}
+.whyImg{
+	width: 164pt;
+	height: 4.5pt;
+	margin-top: 8.5pt;
+}
+.whyContext{
+	margin-top: 16pt;
+	font-size: 12pt;
+	color:#CCC;
+	text-indent: 24pt;
+}
+
+
+.book{
+    width: 100%;
+	height: 296pt;
+    background: url(../img/book.png) no-repeat;
+	background-size: cover;
+	background-position: center center;
+	padding-left: 202pt;
+	box-sizing: border-box;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+}
+.bookTitle{
+	font-size: 26pt;
+	color:#AF023A;
+	margin-bottom: 25pt;
+}
+.bookContext{
+	font-size: 12pt;
+	color:#010101;
+}
+.bookImg{
+	margin-left: 122pt;
+	margin-top: 72.5pt;
+}
+.bookImg img{
+   width: 150pt;
+   height: 24pt;
+}
+.bookImg >img:nth-child(2){
+	margin-left: 16.5pt;
+}
+
+
+
+.bigCase{
+    width: 100%;
+	height: 779.5pt;
+    background: url(../img/bigcase.png) no-repeat;
+    background-position: center center;
+	background-size: cover;
+}
+
+
+.team{
+	padding: 24pt 200pt;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.teamTitle{
+	font-size: 26pt;
+	color:#363636;
+	font-weight: bold;
+	margin-bottom: 25pt;
+}
+.emlogee{
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+	justify-content: center;
+	overflow: hidden;
+}
+.other{
+	margin-top: 17pt;
+}
+.emlogee >div{
+	display: flex;
+	flex:1;
+	flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+}
+.emlogee >div img{
+	width: 70pt;
+	height: 70pt;
+}
+.emlogee >div .name{
+  font-size: 12pt;
+  color:#000;
+  margin-top: 3.5pt;
+  text-align: center;
+}
+.emlogee >div .duties{
+  font-size: 8pt;
+  color:#000;
+  margin-top: 4.5pt;
+}
+.emlogee >div .teamDes{
+  font-size: 7pt;
+  color:#989898;
+  text-align: center;
+  padding: 0 10pt;
+  box-sizing: border-box;
+  margin-top: 5.5pt;
+}
+
+
+
+.partner{
+	width: 100%;
+	height: 362.5pt;
+    background: url(../img/bottom.png) no-repeat;
+    background-position: center center;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	align-items: center;
+	padding: 0 200pt;
+	box-sizing: border-box;
+	justify-content: center;
+}
+.partnerTitle{
+	font-size: 26pt;
+	color:#FFF;
+	font-weight: bold;
+	margin-bottom: 14pt;
+}
+.imgCon{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	margin-top: 14.5pt;
+
+}
+.imgCon >div{
+	display: flex;
+	flex:1;
+	justify-content: center;
+}
+.imgCon div img{
+	width: 100pt;
+	height: 53pt;
+}
+.bottom{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
